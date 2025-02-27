@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: block;
+    height: 400px;
+    margin: 0;
+    background-image: url('imagenes/senna.jpg');
+    transform: scaleX(-1);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 100px 0px rgb(123, 123, 123);
+}
+
+
+.nav_bar {
+    display: flex; /* Activa Flexbox para alinear el logo y los enlaces */
+    justify-content: space-between; /* Separa el logo (izquierda) y los enlaces (derecha) */
+    align-items: center; /* Centra verticalmente */
+    border-radius: 10px;
+    border-bottom: 2px solid rgba(226, 24, 24, 0.526);
+    padding: 10px 20px;
+    background-color: rgba(46, 46, 46, 0.396);
+    width: 100%;
+    
+}
+
+
+.logo {
+    width: 70px; 
+    filter: invert(100%);
+    margin-left: 10px;
+    transition: 2s;
+    
+}
+
+.logo:hover{
+    filter: invert(100%);
+    margin-left: 40px;
+    padding: 0 20px 0 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 20px;
+    display: flex; /* Activa Flexbox para alinear los enlaces horizontalmente */
+    align-items: center; /* Centra verticalmente los enlaces */
+
+}
+
+
+.box {
+    font-family: Verdana, sans-serif;
+    margin-right: 20px; 
+    padding: 10px; 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.506); 
+    border-radius: 2px;
+    display: inline-block;
+    transition: 1s;
+}
+
+
+.box:hover {
+    background-color: rgb(0, 0, 0); 
+    padding: 10px 20px; 
+    border-bottom: 4px solid rgb(255, 0, 0); 
+}
+
+
+.Link_nav {
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto del elemento padre */
+}
+.TitleCont{
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 900; 
+    filter:drop-shadow(2px 5px 1px rgb(0, 0, 0));
+    
+}
+
+.intro{
+    font-size: 18px;
+    margin: 20px;
+    padding: 20px 50px;
+    background-color: rgba(255, 255, 255, 0.92); 
+    border-radius: 15px;
+    border-right: 4px solid rgb(255, 80, 80); 
+    border-bottom: 4px solid rgb(255, 80, 80);;
+}
+
+
+#Home {
+    background-color: #151515;
+    font-family: sans-serif;
+    margin: 40px;
+    padding: 0;
+    border: 2px solid rgba(3, 3, 3, 0);
+    border-radius: 15px;
+    display: flex; 
+}
+
+.HomeBox {
+    font-size: 18px;
+    margin: 20px;
+    padding: 20px 50px;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 15px;
+    
+    border-bottom: 6px solid rgb(255, 51, 51);
+    border-right: 9px solid rgb(255, 51, 51);
+    flex: 2; 
+}
+
+.ImgBox {
+    display: flex;
+    align-items: center; /*centra verticalmente*/
+    width: 70%; 
+    border-radius: 10px;
+    flex: 1;
+    margin: 20px;
+}
+.img{
+    display: block;
+    width: 100%;
+    border-end-end-radius: 15px;
+    border-start-end-radius: 15px;
+}  
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #2f2f2f;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#Ppag {
+    color: #ededed;
+    margin: 0;
+}
